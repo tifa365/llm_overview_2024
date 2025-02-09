@@ -1,5 +1,17 @@
 export const timelineData = [
-    {
+      {
+        month: "January 2024",
+        entries: [
+          {
+            title: "DiscoLM_German_7b_v1",
+            description: "DiscoLM German 7b is a Mistral-based large language model.",
+            type: "weights",
+            german: true,
+            company: "DiscoLM"
+          }
+        ]
+      },
+      {
       month: "February 2024",
       entries: [
         {
