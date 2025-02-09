@@ -42,6 +42,7 @@ const props = defineProps({
         :description="entry.description"
         :type="entry.type"
         :link="entry.link"
+        :german="entry.german" 
       />
     </div>
   </div>

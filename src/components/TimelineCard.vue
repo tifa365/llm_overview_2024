@@ -14,19 +14,31 @@ const props = defineProps({
   title: String,
   description: String,
   type: String,
+  german: Boolean,
   link: {
     type: String,
     default: null
   }
 });
 
-// Computing border and badge styling based on model type props.type
+// Computing border and badge styling based on ...
 const getTypeStyles = () => {
+  if (props.german) {  // Check for german property first
+    return {
+      border: 'border-l-4 border-purple-500',
+      background: 'bg-purple-50',
+      badge: {
+        classes: 'tag german',
+        text: 'German Model'
+      }
+    };
+  }
+  
   switch (props.type) {
     case 'api':
       return {
         border: 'border-l-4 border-red-500',
-        background: 'bg-red-50',  // Light red background
+        background: 'bg-red-50',
         badge: {
           classes: 'tag api-only',
           text: 'API Only'
@@ -35,19 +47,10 @@ const getTypeStyles = () => {
     case 'weights':
       return {
         border: 'border-l-4 border-green-500',
-        background: 'bg-green-50',  // Light green background
+        background: 'bg-green-50',
         badge: {
           classes: 'tag open-source',
           text: 'Open Weights'
-        }
-      };
-    case 'german':
-      return {
-        border: 'border-l-4 border-purple-500',
-        background: 'bg-purple-50',  // Light purple background
-        badge: {
-          classes: 'tag german',
-          text: 'German Model'
         }
       };
     default:

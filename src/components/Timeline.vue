@@ -23,6 +23,13 @@
           @click="setFilter('api')"
           color="red"
         />
+        <!-- Using purple to distinguish German models -->
+          <FilterButton
+          label="German Models Only"
+          :active="activeFilter === 'german'"
+          @click="setFilter('german')"
+          color="purple" 
+        />
       </div>
 
       <!-- Scrollable timeline content -->
@@ -118,6 +125,7 @@ const filteredData = computed(() => {
     ...monthGroup,
     entries: monthGroup.entries.filter(entry => {
       if (activeFilter.value === 'all') return true
+      if (activeFilter.value === 'german') return entry.german
       return entry.type === activeFilter.value
     })
   }))
