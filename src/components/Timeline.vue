@@ -267,6 +267,19 @@ const filteredData = computed(() => {
   line-height: 1;
 }
 
+/* Or if you want to be more specific about breakpoints */
+@media (max-width: 1024px) { /* Tablets */
+  .scroll-controls {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) { /* Mobile */
+  .scroll-controls {
+    display: none;
+  }
+}
+
 /* Timeline element spacing */
 .timeline {
   display: flex;
