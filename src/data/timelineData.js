@@ -1,4 +1,3 @@
-```javascript
 export const timelineData = [
       {
         month: "January 2024",
@@ -451,13 +450,6 @@ export const timelineData = [
           company: "OpenAI"
         },
         {
-          title: o3-Mini",
-          description: "OpenAI expects O3 Mini in January 2025.",
-          type: "api",
-          german: false,
-          company: "OpenAI"
-        },
-        {
           title: "bueble-lm-2b",
           description: "A small German model trained by a team of researchers at HU Berlin.",
           type: "weights",
@@ -467,4 +459,3 @@ export const timelineData = [
       ]
     }
   ];
-```
