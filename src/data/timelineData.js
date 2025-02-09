@@ -67,7 +67,14 @@ export const timelineData = [
           type: "weights",
           german: false,
           company: "Microsoft"
-        }
+        },
+        {
+          title: "German Llama-3-SauerkrautLM-70b-Instruct,",
+          description: "One example of many models released '24 by VAGO Solutions.",
+          type: "weights",
+          german: true,
+          company: "VAGO Solutions"
+        },
       ]
     },
     {
@@ -382,6 +389,20 @@ export const timelineData = [
           type: "api",
           german: false,
           company: "Anthropic"
+        },
+        {
+          title: "LLäMmlein 120M",
+          description: "Released byJulius-Maximilians-Universität Würzburg (JMU)",
+          type: "weights",
+          german: true,
+          company: "CAIADS"
+        },
+        {
+          title: "LLäMmlein 1B",
+          description: "Released byJulius-Maximilians-Universität Würzburg (JMU)",
+          type: "weights",
+          german: true,
+          company: "CAIADS"
         }
       ]
     },
@@ -478,6 +499,13 @@ export const timelineData = [
           type: "api",
           german: false,
           company: "OpenAI"
+        },
+        {
+          title: "bueble-lm-2b",
+          description: "A small German model trained by a team of researchers at HU Berlin.",
+          type: "weights",
+          german: true,
+          company: "flairNLP"
         }
       ]
     }
