@@ -100,6 +100,8 @@ const getTypeStyles = () => {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   position: relative;
   transition: all 0.3s ease;
+  width: 100%;           
+  min-height: fit-content;
 }
 
 .event.bg-red-50 {
@@ -123,6 +125,9 @@ const getTypeStyles = () => {
   margin: 5px 0 0;
   font-size: 12px;
   color: #666;
+  white-space: normal;   /* Add this */
+  word-wrap: break-word; /* Add this */
+  overflow-wrap: break-word; /* Add this */
 }
 
 .tag {
