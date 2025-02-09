@@ -81,7 +81,7 @@ export const timelineData = [
           company: "Microsoft"
         },
         {
-          title: "German Llama-3-SauerkrautLM-70b-Instruct,",
+          title: "German Llama-3-SauerkrautLM-70b-Instruct",
           description: "One example of many models released '24 by VAGO Solutions.",
           type: "weights",
           german: true,
