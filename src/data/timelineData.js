@@ -403,15 +403,8 @@ export const timelineData = [
           company: "Anthropic"
         },
         {
-          title: "LLäMmlein 120M",
-          description: "Released byJulius-Maximilians-Universität Würzburg (JMU)",
-          type: "weights",
-          german: true,
-          company: "CAIADS"
-        },
-        {
           title: "LLäMmlein 1B",
-          description: "Released byJulius-Maximilians-Universität Würzburg (JMU)",
+          description: "1 of 2 LLämlein models released by Julius-Maximilians-Universität Würzburg (JMU)",
           type: "weights",
           german: true,
           company: "CAIADS"
