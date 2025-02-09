@@ -1,3 +1,4 @@
+```javascript
 export const timelineData = [
       {
         month: "January 2024",
@@ -25,13 +26,6 @@ export const timelineData = [
           title: "Gemini Pro 1.5",
           description: "Google announces Gemini Pro 1.5 with multimodal capabilities.",
           type: "api",
-          german: false,
-          company: "Google"
-        },
-        {
-          title: "CodeGemma",
-          description: "Google announces CodeGemma for code generation (open weights).",
-          type: "weights",
           german: false,
           company: "Google"
         }
@@ -119,26 +113,12 @@ export const timelineData = [
           type: "weights",
           german: false,
           company: "Mistral AI"
-        },
-        {
-          title: "Codestral",
-          description: "Mistral AI releases Codestral (open weights).",
-          type: "weights",
-          german: false,
-          company: "Mistral AI"
         }
       ]
     },
     {
       month: "June 2024",
       entries: [
-        {
-          title: "DeepSeekCoderV2",
-          description: "DeepSeekAI publishes DeepSeekCoderV2 (open weights).",
-          type: "weights",
-          german: false,
-          company: "DeepSeekAI"
-        },
         {
           title: "Claude Sonnet 3.5",
           description: "Anthropic releases Claude Sonnet 3.5.",
@@ -171,13 +151,6 @@ export const timelineData = [
           type: "weights",
           german: false,
           company: "Meta"
-        },
-        {
-          title: "Codestral Mamba",
-          description: "Mistral AI releases Codestral Mamba (open weights).",
-          type: "weights",
-          german: false,
-          company: "Mistral AI"
         },
         {
           title: "Mistral Large 2",
@@ -244,13 +217,6 @@ export const timelineData = [
           type: "weights",
           german: false,
           company: "Allen AI"
-        },
-        {
-          title: "Pixtral12B",
-          description: "Mistral introduces Pixtral12B (open weights).",
-          type: "weights",
-          german: false,
-          company: "Mistral AI"
         },
         {
           title: "o1 preview & o1 mini",
@@ -340,13 +306,6 @@ export const timelineData = [
           company: "Alibaba"
         },
         {
-          title: "Qwen2.5 Coder 32B",
-          description: "Alibaba open-sources Qwen2.5 Coder 32B (open weights).",
-          type: "weights",
-          german: false,
-          company: "Alibaba"
-        },
-        {
           title: "DeepSeek-R1-Lite-Preview",
           description: "DeepSeek unveils DeepSeek-R1-Lite-Preview.",
           type: "api",
@@ -366,13 +325,6 @@ export const timelineData = [
           type: "weights",
           german: false,
           company: "Hugging Face"
-        },
-        {
-          title: "Pixtral Large",
-          description: "Mistral AI launches Pixtral Large (open weights).",
-          type: "weights",
-          german: false,
-          company: "Mistral AI"
         },
         {
           title: "Mistral Large 2411",
@@ -492,14 +444,14 @@ export const timelineData = [
           company: "Alibaba"
         },
         {
-          title: "O3",
+          title: "o3",
           description: "OpenAI announces O3.",
           type: "api",
           german: false,
           company: "OpenAI"
         },
         {
-          title: "O3 Mini",
+          title: o3-Mini",
           description: "OpenAI expects O3 Mini in January 2025.",
           type: "api",
           german: false,
@@ -515,3 +467,4 @@ export const timelineData = [
       ]
     }
   ];
+```
